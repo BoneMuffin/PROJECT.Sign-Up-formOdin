@@ -7,3 +7,9 @@ html, body {
     box-sizing: border-box;
 }
 
+.title-header {
+    font-family: 'Rye', cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    font-size: 30px;
+}
