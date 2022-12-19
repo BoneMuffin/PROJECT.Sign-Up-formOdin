@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* LOGO FONT */ @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+/* BANNER FONT */ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 html, body { 
     margin: 0;
@@ -14,11 +15,12 @@ html, body {
     flex-direction: column;
 }
 
-.right-section-container {
+.left-section-container {
+
 
 }
 
-.right-section-banner {
+.left-section-banner {
   
 }
 
@@ -31,7 +33,9 @@ html, body {
 }
 
 
-
+.right-section-container {
+    display: flex;
+}
 
 
 
