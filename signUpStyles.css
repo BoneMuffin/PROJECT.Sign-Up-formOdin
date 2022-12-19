@@ -7,9 +7,37 @@ html, body {
     box-sizing: border-box;
 }
 
+.mainDiv {
+    flex-direction: column;
+    background-color: black;
+}
+
+.right-section-container {
+
+}
+
+.right-section-banner {
+  
+}
+
+.bannerImage-container {
+  
+}
+
+.bannerImage {
+
+}
+
+
+
+
+
+
 .title-header {
     font-family: 'Rye', cursive;
     text-transform: uppercase;
     letter-spacing: 0.8rem;
+
+    color: white;
     font-size: 30px;
 }
