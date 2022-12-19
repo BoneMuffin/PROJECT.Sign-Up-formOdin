@@ -5,11 +5,13 @@ html, body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    overflow: hidden;
+
 }
 
 .mainDiv {
     flex-direction: column;
-    background-color: black;
 }
 
 .right-section-container {
