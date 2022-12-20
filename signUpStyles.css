@@ -41,11 +41,13 @@ html, body {
 }
 
 .title-logo-container {
+    flex-direction: column;
     vertical-align: top;
     display: inline-block;
     justify-content: space-between;
     align-items: start;
-    padding: 27px 0px;
+    padding-top: 80px;   
+    margin: 0px 0px 36px;
     text-align: center;
 
     position: relative;
@@ -79,3 +81,19 @@ a:hover {
     text-decoration: none;
 }
 
+.signUp-container {
+    background-color: white;
+    border-radius: 32px;
+    padding: 12px 0px 40px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.signUp-panel {
+}
+
+
+.form {
+}
