@@ -1,49 +1,63 @@
 /* LOGO FONT */ @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 /* BANNER FONT */ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 
-html, body { 
+html, body {     
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    overflow: hidden;
-
+    font-size: 1.2rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
 }
 
 .mainDiv {
-    flex-direction: column;
-}
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 
-.left-section-container {
-
-
-}
-
-.left-section-banner {
-  
-}
-
-.bannerImage-container {
-  
+    width: 100vw;
+    flex: 1 1 0%;
 }
 
 .bannerImage {
-
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
 }
 
 
 .right-section-container {
     display: flex;
+    flex-direction: column;
 }
 
 
+
+.title-logo-container > img {
+    height: 50px;
+    width: 150px;
+    object-fit: cover;
+}
 
 .title-header {
+    font-size: 25px;
+    color: white;
     font-family: 'Rye', cursive;
     text-transform: uppercase;
-    letter-spacing: 0.8rem;
-
-    color: white;
-    font-size: 30px;
+    letter-spacing: 10px;
 }
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: rgb(188, 188, 188);
+    text-decoration: none;
+}
+
