@@ -50,6 +50,7 @@ html, body {
     width: 45vw;
     background-size: cover;
     background-position: center;
+    left: 0;
     height: 100%;
     top: 0;
 
