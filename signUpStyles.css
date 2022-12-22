@@ -139,44 +139,84 @@ html, body {
 }
 
 .signUp-panel-wrapper {
-  margin: 32px 32px 0px;
-  margin: 32px 6% 0px;
-  min-height: 395px;
-  display: block;
+    display: flex;
+    flex-direction: column;
 
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  height: 100%;
-  justify-content: center;
+    min-height: 100vh;
+    min-width: 400px;
+    max-width: 500px;
+    margin: 0px auto;
+    padding: 12px 0px 40px;
+
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    overflow: hidden;
+    justify-content: flex-start;
 }
 
 .signUp-panel {
-
-   
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
 }
+
+.form {
+    margin: 32px 32px 0px;
+    min-height: 395px;
+    display: block;
+  }
+  
 
   
 .form-group {
-   
-}
+    margin-top: 8px;
+    margin-bottom: 24px;
+    width: 100%;
+    max-width: 100%;
+
+    margin-top: 8px;
+margin-bottom: 24px;
+width: 100%;
+max-width: 100%;
+  }
   
 .form-control {
-
-    
+    position: relative;
+    width: inherit;
+    min-width: inherit;
+    max-width: inherit;
+    border-radius: 4px;
+    border-color: rgba(0, 0, 0, 0.3);
+    border-style: solid;
+    border-width: 1px;
+    transition: border 300ms ease 0s;
 
 }
 
 input {
-
 }
 
 label {
-  
+    color: black;
+    font-size: 22px;
+
 }
 
 .input-checkbox {
- 
+    display: inline-block;
+    line-height: 20px;
+    cursor: pointer;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+    width: 20px;
+    height: 20px;
+    position: relative;
+
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 /* buttons */
