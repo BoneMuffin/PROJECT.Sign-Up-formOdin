@@ -185,7 +185,7 @@ html, body {
 
 label {
     color: black;
-    position: absolute;
+    position: relative;
     left: 12px;
     background: transparent;
     border-radius: 4px;
@@ -194,9 +194,8 @@ label {
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: calc( 48px - calc(1px + 1px));
-
-  
-
+    
+    margin-bottom: 15px;
 }
 
 input {
