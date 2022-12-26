@@ -20,5 +20,5 @@ Part of the Odin Project's curriculum
 
 
 ## Live preview [here](https://bonemuffin.github.io/PROJECT.Sign-Up-formOdin/signUpIndex.html)
-![](./Media/page-preview.png)
+![](/Media/page-preview.png)
 
