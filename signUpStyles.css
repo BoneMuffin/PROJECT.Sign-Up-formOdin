@@ -213,6 +213,10 @@ input:hover {
     border: 1px solid black;
 }
 
+input:focus {
+    border: lightslategray;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
 
 /* buttons */
   
@@ -232,7 +236,7 @@ a:hover {
 }
 
 .submitBtn {
-    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.512);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.666);
     padding: 0.75rem 3rem;
     width: 100%;
     border: 0px none;
