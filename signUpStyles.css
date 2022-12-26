@@ -146,7 +146,6 @@ html, body {
 }
 
 .signUp-panel-wrapper {
-    display: flex;
     position: relative;
     flex-direction: column;
     height: 100%;
@@ -154,15 +153,8 @@ html, body {
     background-color: white;
 
     margin: 32px 32px 0px;
-
-  display: block;
-}
-
-.signUp-panel {
-    margin: 32px 32px 0px;
     min-height: 395px;
     display: block;
-
 }
 
 .text-field-wrapper {
@@ -170,6 +162,8 @@ html, body {
     margin-bottom: 24px;
     width: 100%;
     max-width: 100%;
+    padding-right: 16px;
+    height: calc( 48px - calc(1px + 1px));
 }
 
 .text-field-inner {
@@ -178,10 +172,11 @@ html, body {
     min-width: inherit;
     max-width: inherit;
     border-radius: 4px;
-    border-color: rgba(0, 0, 0, 0.3);
-    border-style: solid;
-    border-width: 1px;
-    transition: border 300ms ease 0s;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.text-field-inner:hover {
+    border-color: black;
 }
 
 label {
@@ -195,6 +190,8 @@ label {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    line-height: calc( 48px - calc(1px + 1px));
+
 
 }
 
@@ -207,6 +204,8 @@ input {
     background: white;
     color: black;
     width: 100%;
+    height: calc( 48px - calc(1px + 1px));
+    line-height: calc( 48px - calc(1px + 1px));
 }
 
 
@@ -228,31 +227,31 @@ a:hover {
 }
 
 .submitBtn {
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.512);
     padding: 0.75rem 3rem;
-    display: block;
     width: 100%;
     border: 0px none;
 
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: 1.5px;
     font-size: 1.25rem;
     text-align: center;
+    display: inline-block;
     background-color: white;
     color: black;
+    cursor: pointer;
 
    
     border-radius: 3px;
-    cursor: pointer;
-    padding: 0.75rem 3rem;
     margin-top: 30px;
-    transition: all 0.125s ease 0s;
-
     margin-bottom: 15px;
+
+    max-width: 100%;
+    white-space: nowrap;
 }
 
 .submitBtn:hover {
-    color:white;
-    background-color: rgb(104, 104, 104);
+    color:rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
 }
 
 .logIn-text {
