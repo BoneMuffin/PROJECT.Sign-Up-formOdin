@@ -2,8 +2,8 @@
     // is same or not.
 
 function checkPassword(form) {
-        password == form.password.value;
-        password2 == form.password2.value;
+        var password = document.getElementById('password').value;
+        var password2 = document.getElementById('password2').value;
 
     // If password not entered
         if (password == '')
@@ -24,5 +24,5 @@ function checkPassword(form) {
         alert("Password Match: Welcome to Santa Puerca!")
         return true;
         }
-} 
+};
 
