@@ -175,8 +175,6 @@ html, body {
     width: inherit;
     min-width: inherit;
     max-width: inherit;
-    border-radius: 4px;
-    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .text-field-inner:hover {
@@ -187,15 +185,13 @@ label {
     color: black;
     position: relative;
     left: 12px;
+    top: 12px;
     background: transparent;
     border-radius: 4px;
     padding: 0px 4px 0px 0px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    line-height: calc( 48px - calc(1px + 1px));
-    
-    margin-bottom: 15px;
 }
 
 input {
@@ -209,6 +205,12 @@ input {
     width: 100%;
     height: calc( 48px - calc(1px + 1px));
     line-height: calc( 48px - calc(1px + 1px));
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+input:hover {
+    border: 1px solid black;
 }
 
 
@@ -226,7 +228,7 @@ a:hover {
 
 .button-container {
     margin: 0;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
 }
 
 .submitBtn {
