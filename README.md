@@ -15,10 +15,10 @@ Part of the Odin Project's curriculum
 - Google Images
 
 ## Outcome
- - Improved CSS Flex and object positioning.
- - Additional password match validation with the use JavaScript.
+ - Improved usage of CSS Flex properties, specially object positioning while using images.
+ - Additional password match validation with the use of JavaScript.
 
 
 ## Live preview [here](https://bonemuffin.github.io/PROJECT.Sign-Up-formOdin/signUpIndex.html)
-![](/Media/page-preview.png)
+![](./Media/page-preview.png)
 
