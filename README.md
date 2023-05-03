@@ -1,5 +1,9 @@
 # Sign Up Form
+
 Part of the Odin Project's curriculum
+
+## Live preview [here](https://bonemuffin.github.io/PROJECT.Sign-Up-formOdin/signUpIndex.html)
+
 
 ## Built with
 - HTML
@@ -19,6 +23,4 @@ Part of the Odin Project's curriculum
  - Additional password match validation with the use of JavaScript.
 
 
-## Live preview [here](https://bonemuffin.github.io/PROJECT.Sign-Up-formOdin/signUpIndex.html)
-![](./Media/page-preview.png)
 
